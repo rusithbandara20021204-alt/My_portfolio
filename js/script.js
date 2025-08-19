@@ -6,6 +6,13 @@ menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 };
+
+let contactBtn = document.querySelector('#contactBtn');
+
+contactBtn.onclick = () => {
+    contactBtn.classList.toggle('bx-x');
+    contactBtn.classList.toggle('active');
+};
 /*==================== scroll sections active link ====================*/
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
